@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html>
+    <head>
+            <link rel = "stylesheet" type = "text/css" href = "index.css"/>
+    </head>
 <body>
+    <button id ="open">TOGGLE</button>
+    <br>
+    <br>
+<div id="center">
+    <h1>WORD CREATOR</h1>
+    <br>
+<button id="addletter" class="center">Generate Letters</button>
+<br>
+<input type="text" class="center" id= "letterinput" name="word_input" value = "">
+<br>
+<br>
+<button id = "word" class="center">Add Word</button>
+<br>
 
-<button>Generate Letters</button><br>
-<input type="text" id= "letterinput" name="word_input" value = ""><br>
-<button>Add Word</button><br>
-<form >
-    First name: <input type="text" name="fname"><br>
-    Last name: <input type="text" name="lname"><br>
-    <input type="submit" value="Save Paragraph">
-  </form>
+<textarea  cols= "30" rows = "5" class="center" id= "paragraph" name="paragraph" value=""></textarea>
+<br>
+<br>
+<button class="center" id="submit">Save Paragraph</button><br><br>        
+<select class="center" id = "select">
+  </select>
+  
+</div>
+ 
+<script src = "index.js"></script>
 
 </body>
 </html>

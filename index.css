@@ -1,0 +1,15 @@
+.center{
+    margin: auto
+}
+
+#center {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10%;
+}
+
+body {
+    background-image: url("https://66.media.tumblr.com/36586403011aa8e822c3b06507472300/tumblr_nc109uM2vf1sa5jn6o7_1280.jpg");
+    background-position: center;
+}
